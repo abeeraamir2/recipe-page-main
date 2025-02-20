@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    padding:20px; /*adds space between the edge of the browser window and the content inside the body*/
+    display:flex; /*used for centering the .container in the middle of the page.*/
+    justify-content: center; /*ensures that .container is centered horizontally*/
+    align-items:center; /*ensures that .container is centered vertically*/
+    min-height:100vh; 
+    flex-direction: column;
+}
+
+.container{
+    background-color: white;
+    border-radius: 15px;
+    overflow:hidden;
+    max-width:600px;
+    width:100%;
+    padding:20px; /*to increase the distance between image and the container border*/
+}
+
+.container-image img{ 
+    width:100%;
+    height:auto;
+    border-radius:15px;
+}
+
+.container-content{
+    padding:20px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color:grey;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+/*Preparation Time*/
+.preparation-time {
+    padding-left:10px;
+    padding-top:15px;
+    padding-bottom:20px;
+    line-height:1.8;
+    border:2px solid white;
+    border-radius:15px;
+    background-color: #f3d9f3;
+}
+
+.preparation-time h2{
+    color:rgb(108, 0, 108);
+}
+
+.preparation-time ul{
+    list-style-type: disc;
+    padding-left:30px;
+}
+.preparation-time ul li{
+    padding-left:10px;
+}
+
+/*Ingredients*/
+.ingredients h2{
+    padding-top: 20px;
+    color: rgb(174, 50, 5);
+}
+
+.ingredients ul{
+    list-style: disc;
+    padding-top:10px;
+    padding-left:30px;
+}
+
+.ingredients li{
+    padding-left:10px;
+    line-height:2rem;
+}
+
+/*Horizontal line*/
+hr{
+    margin-top:20px;
+    border:1px solid black(156, 154, 154);
+}
+
+/*Instructions*/
+.instructions h2{
+    color:rgb(174, 50, 5);
+    padding-top:20px;
+}
+
+.instructions ol{
+    padding-left: 20px;
+}
+
+.instructions ol li{
+    line-height: 2rem;
+    padding-left:10px;
+}
+
+/*Nutrition*/
+.nutrition h2{
+    color:rgb(174, 50, 5);
+    padding-top:20px;
+}
+
+.nutrition table{
+    width:100%;
+}
+
+.nutrition table td{
+    color:rgb(174, 50, 5);
+    font-weight:bold;
+    line-height:2rem;
+}
+.nutrition table th{
+    padding-left:20px;
+    text-align:left;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #555;
+}
+
